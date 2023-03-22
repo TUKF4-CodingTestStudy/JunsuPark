@@ -69,3 +69,5 @@ for item in B:
 #
 # for item in B:
 #     print(1) if item in A else print(0)
+
+# https://www.acmicpc.net/problem/1920
