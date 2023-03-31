@@ -29,7 +29,8 @@ def top():
     else:
         print(stack[-1])
 
-input = sys.stdin.readline
+
+input = sys.stdin.readline  # 빠른 입력 함수
 N = int(input())
 
 stack = []
