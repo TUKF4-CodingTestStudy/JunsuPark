@@ -20,7 +20,7 @@ while queue:
 
 print(' '.join(map(str, result)))
 
-# deque의 rotate는 음수를 넣게 된다면 왼쪽 회전, 양수는 오른쪽 회전
+# deque의 rotate는 인수에 음수를 넣게 된다면 왼쪽 회전(반시계), 양수는 오른쪽 회전(시계)
 # 오른쪽 회전 : pop -> appendleft
 # 왼쪽 회전 : popleft -> append
 # https://www.acmicpc.net/problem/2346
