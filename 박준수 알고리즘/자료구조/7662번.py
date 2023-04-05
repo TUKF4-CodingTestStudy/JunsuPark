@@ -26,6 +26,7 @@
 #     else:
 #         print(max(heap), min(heap))
 
+# 큐를 2개로 둬야지 더 효율적이다(시간초과가 나지 않는다)
 import sys
 import heapq
 
