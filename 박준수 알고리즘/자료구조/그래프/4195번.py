@@ -50,3 +50,4 @@ for _ in range(T):
 
 
 #부모 노드를 맞추어서 친구 네트워크를 연결하는 방식이다.
+# https://www.acmicpc.net/problem/4195

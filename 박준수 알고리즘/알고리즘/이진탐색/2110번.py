@@ -30,3 +30,5 @@ print(result)
 
 # 최솟값은 1, 최댓값은 집 사이가 가장 먼 gap, 중간값은 (최솟값+최댓값) // 2 중간gap
 # https://www.acmicpc.net/problem/2110
+
+#이진 탐색은 재귀적과 반복적으로 구현 가능
