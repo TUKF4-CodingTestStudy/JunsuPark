@@ -52,8 +52,8 @@ for i in range(1, N+1):
 
 # 깊이의 최대치 찾기
 max_depth = 0
-
 dfs(root, 1)
+
 order = 1 # 순서를 매길 번호
 in_order(root)  # 중위 순회를 root번호부터 돈다.
 
@@ -70,7 +70,7 @@ for i in range(len(depth_list)):
     else:   #  2개 이상이라면
         result.append(max(depth_list[i]) - min(depth_list[i]) + 1) # 가장 짧은 것과 긴것의 차 + 1을 넣어준다.
 
-print(result.index(max(result),1), max(result))
+print(result.index(max(result), 1), max(result))
 
 # DFS로 노드의 깊이를 매겨준다.
 # 중위 순회로 노드의 너비 번호를 매겨준다.
