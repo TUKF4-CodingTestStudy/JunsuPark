@@ -29,6 +29,6 @@ result.reverse()
 print(len(result))
 [print(i) for i in result]
 
-# i는 쌓인 벽돌의 번호를 행으로
+# i는 벽돌들을 무게에 따라 정렬한 테이블의 인덱스
 # dp 테이블에는 벽돌의 번호마다 벽돌의 높이를 갱신
 # max_value 위치부터 테이블을 역추적
